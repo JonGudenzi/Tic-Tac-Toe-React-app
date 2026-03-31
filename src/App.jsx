@@ -35,7 +35,7 @@ function handleSelectSquare(rowIndex, colIndex) {
         onSelectSquare={handleSelectSquare} 
         turns={gameTurns} />
       </div>
-      <Log />
+      <Log turns={gameTurns}/>
     </main>
 
   )
